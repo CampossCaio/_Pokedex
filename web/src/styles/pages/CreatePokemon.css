@@ -1,0 +1,62 @@
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.form-container form input {
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 5px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid  rgba(0, 0, 0, 0.0);
+  outline: 0;
+  padding: 15px;
+  margin-bottom: 35px;
+}
+
+.form-container form .isFocused {
+  border: 2px solid #8257E5;
+}
+
+.form-container form .isFilled {
+  border: 2px solid #04D361;
+}
+
+
+
+.form-container form div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container form div input {
+  width: 100%;
+  max-width: 180px;
+}
+
+.form-container form button {
+  padding: 15px;
+  background: #04D361;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.form-container form button:hover {
+  opacity: 0.8;
+}
+
+

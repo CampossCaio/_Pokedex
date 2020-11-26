@@ -1,0 +1,77 @@
+.card-container {
+  width: 274px;
+  height: 418px;
+  border-radius: 8px;
+  background: #202024;
+  border: 2px solid #202024;
+  padding: 20px;
+  transition: border-color 0.2s;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-container:hover {
+  border-color: #04D361;
+  transform: translateY(-8px);
+}
+
+.card-container .card-info-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-container .card-info-top .btn-delete {
+  border: 0;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.card-container .card-info-top .btn-delete:hover {
+  opacity: 1;
+}
+
+.card-container .card-info-top .btn-delete svg {
+  color: #FF0000;
+  size: 30px;
+}
+
+.card-container .card-info-pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-container .card-info-pokemon img {
+  height: 200px;
+  margin-bottom: 20px;
+  transition: all 0.2s;
+}
+
+
+.card-container .card-info-pokemon span {
+  font-size: 30px;
+}
+
+.card-container .card-info-attributes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.attack {
+  color: #04D361;
+}
+
+.defense {
+  color: #8257E5;
+}
+
+

@@ -1,0 +1,47 @@
+.skeleton-cards-container {
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 80px
+}
+
+.skeleton-container {
+  width: 274px;
+  height: 418px;
+  border-radius: 8px;
+  background: #202024;
+  opacity: 0.7;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skeleton-container .skeleton-info-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skeleton-container .skeleton-info-top .btn-delete {
+  border: 0;
+  background: none;
+}
+
+.skeleton-container .skeleton-info-pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skeleton-container .skeleton-info-pokemon span {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.skeleton-container .skeleton-info-attributes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 50px;
+  color: #fff;
+  background: url('../assets/background-image.png') no-repeat 70% -50% #121214 fixed;
+}
+
+body, input, button {
+ font: 600 20px Nunito, sans-serif;
+}
